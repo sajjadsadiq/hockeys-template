@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Light Theme -->
+<html lang="en" data-theme="light">
+  <head>
+    <!-- Meta Tags Here -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind & DaisyUI CDN Here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Customize Your Configuration  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary-clr": "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Custome CSS File Tags Here -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <!-- Title Tags Here -->
+    <title>Hockey's Template</title>
+  </head>
+  <body>
+    <h1 class="text-primary-clr">Hockey's</h1>
+  </body>
+</html>
